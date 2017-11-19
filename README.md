@@ -3,7 +3,7 @@
 A tiny script that creates an empty R data science project.
 
 __Instructions__
-* Download the script cookie-cutter.sh
+* Download the script [cookie-cutter.sh](cookie-cutter.sh)
 * To create the project in a folder called _my-project_, run in a terminal the command
 
 `$ bash path/to/the/cookie-cutter.sh path/to/my-project`
