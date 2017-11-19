@@ -16,9 +16,12 @@ echo "" >> README.md
 cd src
 touch untitled.Rmd
 echo "---
-output:
-  github_document
+output: github_document
 ---
+
+\`\`\`{r setup, include=FALSE}
+knitr::opts_chunk\$set(echo = TRUE)
+\`\`\`
 
 # " >> untitled.Rmd
 
