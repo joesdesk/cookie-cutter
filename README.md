@@ -1,25 +1,45 @@
-# cookie-cutter
+# pytemplate
 
-A tiny script that creates an empty R data science project.
-
-__Instructions__
-* Download the script [cookie-cutter.sh](cookie-cutter.sh)
-* To create the project in a folder called _my-project_, run in a terminal the command
-
-`$ bash path/to/the/cookie-cutter.sh path/to/my-project`
+A template for a python package with setup scripts, testing and continuous integration.
 
 
-__Generated Project structure__
+__Installing the Package__
 
+The python package can be installed directly from github using
 ```
-my-project/
-    README.md
-    data/
-    src/
-        untitled.Rmd
-    results/
+pip install --index-url https://github.com/joesdesk/pytemplate pytemplate
 ```
 
-__Info__
+It can also be installed from a local source (presumably after being downloaded). In development mode (using the `-e` option), editing the source files also changes the installed package in real time.
+```
+cd path/to/pytemplate
+pip install -e ./
+```
+
+To install the package as a normal package, where changing the source files will _not_ change change the installed package without reinstallation, run
+```
+pip install ./
+```
+
+See [PyPA: Installing Packages](https://packaging.python.org/tutorials/installing-packages/#installing-from-other-indexes).
+
+
+__Running Tests__
+
+Having tests to ensure changes don't create new bugs is essential in software development.
+To run all the tests in the `tests/` folder, run
+```
+cd path/to/pytemplate
+pytest
+```
+
+
+__About__
+
 - Author: Jomar Sastrillo
 - Date created: November 19, 2017
+
+
+__References__
+
+PyPA. _Packaging Python Projects_. [link](https://packaging.python.org/tutorials/packaging-projects/#uploading-your-project-to-pypi).
