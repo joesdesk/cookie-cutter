@@ -63,4 +63,5 @@ pytest
 
 * PyPA. _Installing Packages_. [link](https://packaging.python.org/tutorials/installing-packages/#installing-from-other-indexes).
 * PyPA. _Packaging Python Projects_. [link](https://packaging.python.org/tutorials/packaging-projects/#uploading-your-project-to-pypi).
-* PEAK. _Accessing Package Resources_. [link](http://peak.telecommunity.com/DevCenter/PythonEggs#accessing-package-resources)
+* PEAK. _Accessing Package Resources_. [link](https://setuptools.readthedocs.io/en/latest/pkg_resources.html#resource-extraction)
+* setuptools Documentation. _Resource Extraction_. [link](https://setuptools.readthedocs.io/en/latest/pkg_resources.html#resource-extraction)
