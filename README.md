@@ -10,9 +10,13 @@ The python package can be installed directly from github using
 pip install --index-url https://github.com/joesdesk/pytemplate pytemplate
 ```
 
-It can also be installed from a local source (presumably after being downloaded). In development mode (using the `-e` option), editing the source files also changes the installed package in real time.
+It can also be installed from a local source (presumably after being downloaded). In development mode (using the `-e` option), editing the source files also changes the installed package in real time. First change directory to the repository root
 ```
 cd path/to/pytemplate
+```
+
+and run
+```
 pip install -e ./
 ```
 
@@ -27,9 +31,12 @@ See [PyPA: Installing Packages](https://packaging.python.org/tutorials/installin
 __Running Tests__
 
 Having tests to ensure changes don't create new bugs is essential in software development.
-To run all the tests in the `tests/` folder, run
+To run all the tests in the `tests/` folder, change directory to the repository root
 ```
 cd path/to/pytemplate
+```
+and run
+```
 pytest
 ```
 
@@ -43,3 +50,4 @@ __About__
 __References__
 
 PyPA. _Packaging Python Projects_. [link](https://packaging.python.org/tutorials/packaging-projects/#uploading-your-project-to-pypi).
+PEAK. _Accessing Package Resources_. [link](http://peak.telecommunity.com/DevCenter/PythonEggs#accessing-package-resources)
