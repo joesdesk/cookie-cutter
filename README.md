@@ -2,8 +2,15 @@
 
 A template for a python package with setup scripts, testing and continuous integration.
 
+### Contents
 
-__Installing the Package__
+* [Installing the Package](#installing-the-package)
+* [Uninstalling the Package](#uninstalling-the-package)
+* [Running Tests](#running-tests)
+* [About](#about)
+* [References](#references)
+
+### Installing the Package
 
 The python package can be installed directly from github using
 ```
@@ -25,10 +32,15 @@ To install the package as a normal package, where changing the source files will
 pip install ./
 ```
 
-See [PyPA: Installing Packages](https://packaging.python.org/tutorials/installing-packages/#installing-from-other-indexes).
+### Uninstalling the Package
+
+To perform a clean uninstall of the package, run
+```
+pip uninstall pytemplate
+```
 
 
-__Running Tests__
+### Running Tests
 
 Having tests to ensure changes don't create new bugs is essential in software development.
 To run all the tests in the `tests/` folder, change directory to the repository root
@@ -41,13 +53,14 @@ pytest
 ```
 
 
-__About__
+### About
 
 - Author: Jomar Sastrillo
 - Date created: November 19, 2017
 
 
-__References__
+### References
 
-PyPA. _Packaging Python Projects_. [link](https://packaging.python.org/tutorials/packaging-projects/#uploading-your-project-to-pypi).
-PEAK. _Accessing Package Resources_. [link](http://peak.telecommunity.com/DevCenter/PythonEggs#accessing-package-resources)
+* PyPA. _Installing Packages_. [link](https://packaging.python.org/tutorials/installing-packages/#installing-from-other-indexes).
+* PyPA. _Packaging Python Projects_. [link](https://packaging.python.org/tutorials/packaging-projects/#uploading-your-project-to-pypi).
+* PEAK. _Accessing Package Resources_. [link](http://peak.telecommunity.com/DevCenter/PythonEggs#accessing-package-resources)
